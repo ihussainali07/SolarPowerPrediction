@@ -553,6 +553,9 @@ results/analysis.md
 
 ---
 
+## ⭐ Project Summary
+results/figures/10. Front-end screenshot.png
+
 # 📌 Important Implementation Detail
 
 `plant1_hourly_openmeteo.csv` may already contain `ac_power` and on-site columns.
