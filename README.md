@@ -553,8 +553,8 @@ results/analysis.md
 
 ---
 
-## ⭐ Project Summary
-results/figures/10. Front-end screenshot.png
+## 🌐 Frontend App
+![Front-end Screenshot](results/figures/frontend_screenshot10.png)
 
 # 📌 Important Implementation Detail
 
