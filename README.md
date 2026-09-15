@@ -554,7 +554,7 @@ results/analysis.md
 ---
 
 ## 🌐 Frontend App
-![Front-end Screenshot](results/figures/10. Front-end screenshot.png)
+![Front-end Screenshot](results/figures/10.%20Front-end%20screenshot.png)
 
 # 📌 Important Implementation Detail
 
