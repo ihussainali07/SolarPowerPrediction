@@ -1,0 +1,67 @@
+{
+  "train_rows": 648,
+  "test_rows": 168,
+  "set_b_available": true,
+  "learning_rate_experiments": {
+    "batch_alphas_tested": [
+      1e-05,
+      0.0001,
+      0.001
+    ],
+    "batch_iters": 500,
+    "batch_final_costs": {
+      "1e-05": 474851273.2935238,
+      "0.0001": 123254899.70762293,
+      "0.001": 2.1114080591802985e+21
+    },
+    "batch_alpha_chosen": 0.0001,
+    "sgd_alphas_tested": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "sgd_epochs": 50,
+    "sgd_final_costs": {
+      "0.0001": 476968789.72210765,
+      "0.001": 123485383.7710183,
+      "0.01": 98254323.23006919
+    },
+    "sgd_alpha_chosen": 0.01
+  },
+  "set_a_max_abs_diff_bgd_vs_normal": 3.0952783613312818,
+  "set_a_batch_gd_monotone_decrease": true,
+  "peak_hourly_ac_power_train_kw": 27325.8986605,
+  "largest_set_a_feature_weight": "irradiation",
+  "largest_set_a_feature_weight_value": 8187.254343613556,
+  "residual_by_hour_mean": {
+    "0": 0.0,
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": -44.687,
+    "5": -184.526,
+    "6": -302.216,
+    "7": -81.542,
+    "8": 472.41,
+    "9": 796.245,
+    "10": 1150.061,
+    "11": 747.723,
+    "12": 514.401,
+    "13": 682.92,
+    "14": 595.499,
+    "15": 655.144,
+    "16": 229.696,
+    "17": -215.646,
+    "18": -427.21,
+    "19": -309.928,
+    "20": -164.234,
+    "21": -30.178,
+    "22": 0.0,
+    "23": 0.0
+  },
+  "set_a_daytime_rmse_kw": 710.133894078235,
+  "set_b_daytime_rmse_kw": 3989.9901581987287,
+  "set_b_minus_set_a_daytime_rmse_kw": 3279.8562641204935,
+  "set_b_vs_set_a_daytime_rmse_diff_pct_of_peak": 12.002738884710773,
+  "set_b_max_abs_diff_bgd_vs_normal": 7.003109203651547e-11
+}

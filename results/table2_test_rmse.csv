@@ -1,0 +1,7 @@
+Solver,Features,All hours RMSE (kW),Daytime RMSE (kW)
+Normal equation,Set A,544.223,710.134
+"Batch GD (alpha=0.0001, iters=20000)",Set A,544.337,710.278
+"Stochastic GD (alpha=0.01, epochs=50)",Set A,561.935,734.627
+Normal equation,Set B,3167.816,3989.99
+"Batch GD (alpha=0.0001, iters=20000)",Set B,3167.816,3989.99
+"Stochastic GD (alpha=0.01, epochs=50)",Set B,2985.071,3829.018
